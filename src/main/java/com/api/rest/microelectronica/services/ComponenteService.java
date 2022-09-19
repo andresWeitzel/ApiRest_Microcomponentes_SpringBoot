@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-
+import org.springframework.transaction.annotation.Transactional;
 
 import com.api.rest.microelectronica.entities.Componente;
 import com.api.rest.microelectronica.exc.componentes.ComponenteIdMismatchExc;
@@ -16,6 +16,7 @@ import java.util.Optional;
 import org.apache.logging.log4j.Logger;
 
 @Service
+@Transactional
 public class ComponenteService {
 
 	// ============ INYEC. DEP ============
@@ -49,7 +50,6 @@ public class ComponenteService {
 
 					iComponenteRepository.save(componente);
 
-					logger.info("SE HA INSERTADO CORRECTAMENTE EL COMPONENTE CON EL ID " + componente.getId());
 				}
 			} catch (Exception e) {
 				logger.error(

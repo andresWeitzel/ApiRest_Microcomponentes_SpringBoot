@@ -45,22 +45,22 @@ public class Componente {
 
 	
 	@Column(name="imagen")
-	@NotNull(message="La Imagen no puede ser null")
-	@NotBlank(message="La imagen no puede estar en blanco")
-	@Size(min = 20, max = 600, message = "La Imagen debe ser mayor o igual a 20 caracteres y menor o igual a 600 caracteres")
+	//@NotNull(message="La Imagen no puede ser null")
+	//@NotBlank(message="La imagen no puede estar en blanco")
+	@Size(min = 20, max = 1000, message = "La Imagen debe ser mayor o igual a 20 caracteres y menor o igual a 1000 caracteres")
 	private String imagen;
 	
 	@Column(name = "datasheet")
 	//@NotNull(message="La Hoja De Datos no puede ser null")
 	//@NotBlank(message="La Hoja De Datos no puede estar en blanco")
-	//@Size(min = 20, max = 600, message = "La Hoja De Datos debe ser mayor o igual a 20 caracteres y menor o igual a 600 caracteres")
+	@Size(min = 20, max = 1000, message = "La Hoja De Datos debe ser mayor o igual a 20 caracteres y menor o igual a 1000 caracteres")
 	private String datasheet;
 
 	
 	@Column(name = "nro_pieza")
 	@NotNull(message="El Nro de Pieza no puede ser null")
 	@NotBlank(message="El Nro de Pieza no puede estar en blanco")
-	@Size(min = 20, max = 600, message = "La Imagen debe ser mayor o igual a 20 caracteres y menor o igual a 600 caracteres")
+	@Size(min = 20, max = 200, message = "La Imagen debe ser mayor o igual a 20 caracteres y menor o igual a 200 caracteres")
 	private String nroPieza;
 
 	@Column(name = "categoria")
