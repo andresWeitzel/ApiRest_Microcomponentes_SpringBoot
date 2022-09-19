@@ -4,8 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-import springfox.documentation.builders.PathSelectors;
-import springfox.documentation.builders.RequestHandlerSelectors;
+
 import springfox.documentation.service.*;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
@@ -29,22 +28,21 @@ public class SwaggerConfig implements WebMvcConfigurer{
     //"ApiRest Productos Supermercado v3.0"
     private ApiInfo apiInfo(){
         return new ApiInfo(
-        		"ApiRest Productos Supermercado",
-        		"* Api Rest para el Microservice App_MicroFrontEnd_Productos implementada con Spring Boot, Spring MVC, Spring Security, JWT , Spring Data JPA, SpringDoc-OpenApi, Swagger UI, Maven, Lombok, Postman, Log4j, Git, DBeaver, pgAdmin y PostgreSQL.\r\n"
-        	      		+ "* La Api Rest implementa todas las Operaciones CRUD, tanto para productos como para usuarios. \r\n"
-        	      		+ "* Se separa la capa de seguridad para la autenticación , implementando Spring Security y JWT. Además de realizar las operaciones CRUD para usuarios se aplica login y signin para la capa de presentación.\r\n"
-        	      		+ "* También se desarrollan los métodos de búsquedas independientes de tipo Like para todos los campos, tanto de usuarios como productos.\r\n"
-        	      		+ "* Los objetos de tipo getBy se manipulan como paginados, salvo los getById y Optional que se requiere un response por objeto y no una E.D como de tipo lista, stream, etc.\r\n"
-        	      		+ "* Se Desarrollan Clases Específicas para el Manejo de Excepciones para cada Servicio , como también un manejador de excepciones y validaciones por campos de beans.\r\n"
-        	      		+ "* Todas las funcionalidades tienen generación de logs en el Server para los errores y excepciones personalizadas\r\n"
-        	      		+ "* Se incluye documentación completa de la Api con open-api para la visualización con swagger-ui, las anotaciones de open-api se aplican junto con los códigos de respuesta de tipo HTTP para cada función en los respectivos controllers.\r\n"
-        	      		+ "* Se pone a disposición todos los recursos anteriores para productos y usuarios.\r\n"
-        	      		+ "* Entre Otros.",
+        		"ApiRest_MicroFront_Microelectrónica",
+        		"\r\n"
+        		+ "* Microservicio Api Rest para el Micro FrontEnd Microelectrónica implementado con Spring Boot, Spring MVC, Spring Data JPA, SpringFox, Swagger UI, Maven, Lombok, Postman, Log4j, Git, SQLDeveloper, Oracle XE 21c y Otras Tecnologías.\r\n"
+        		+ "* Para este Microservicio no se implementa la capa de seguridad, es posible realizarlo con Spring Security (visualizar otras Api's Rest en mi perfíl de github).\r\n"
+        		+ "* Se incluye documentación con Swagger 2 / Spring Fox para cada recurso junto con los códigos de respuesta Http más usados. Además se agrega doc junto con validaciones para cada Bean.\r\n"
+        		+ "* Los Objetos de Búsqueda se trabajan como paginados, incluyendo algunos de tipo CRUD. Se implementa manejos de Excepciones con clases específicas para su control.\r\n"
+        		+ "* Entre Otros.\r\n"
+        		+ "* Repositorio App_MicroFront_Microelectronica_React_Oracle : https://github.com/andresWeitzel/App_MicroFront_Microelectronica_React_Oracle\r\n"
+        		+ "* Repositorio db_microElectronica : https://github.com/andresWeitzel/db_microElectronica_OracleXE\r\n"
+        		+ "* PlayList Api Rest : https://www.youtube.com/playlist?list=PLCl11UFjHurDnmm7zqPOgpPu0fAuOHa9S",
         	    "v3.0",
-        	    "https://github.com/andresWeitzel/ApiRest_MicroFrontEnd_ProductosSupermercado/blob/master/LICENSE",
-                new Contact("Andrés Weitzel","https://github.com/andresWeitzel/ApiRest_MicroFrontEnd_ProductosSupermercado" ,"andres96energy@hotmail.com"),
+        	    "https://github.com/andresWeitzel/ApiRest_MicroFront_Microelectronica/blob/master/LICENSE",
+                new Contact("Andrés Weitzel","https://github.com/andresWeitzel/ApiRest_MicroFront_Microelectronica" ,"andres96energy@hotmail.com"),
                 "GNU v3.0",
-                "https://github.com/andresWeitzel/ApiRest_MicroFrontEnd_ProductosSupermercado/blob/master/LICENSE",
+                "https://github.com/andresWeitzel/ApiRest_MicroFront_Microelectronica/blob/master/LICENSE",
                 Collections.emptyList()
         );
     }

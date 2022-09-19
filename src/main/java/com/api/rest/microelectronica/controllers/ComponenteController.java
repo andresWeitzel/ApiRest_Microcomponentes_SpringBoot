@@ -201,14 +201,14 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-	@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+	@ApiOperation(value = "Componente según su ID", notes = "Devuelve el Componente según su ID")
 	@ApiResponses(value = {
-			@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
-			@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
-			@ApiResponse(code = 400, message = "No se ha/han podido Listar los Componente con Filtro. Comprobar la Solicitud"),
-			@ApiResponse(code = 401, message = "No está autorizado para listar el/los Componente/s con Filtro. Verificar credenciales"),
-			@ApiResponse(code = 403, message = "No se ha/han podido listar el/los Componente con Filtro. El servidor ha denegado esta operación"),
-			@ApiResponse(code = 404, message = "El Listado de/los Componente/s con Filtro no está Disponible ya que el recurso pedido no existe. Comprobar solicitud"),
+			@ApiResponse(code = 200, message = "Se ha Listado el Componente según su ID Correctamente"),
+			@ApiResponse(code = 201, message = "Se ha Listado el Componente según su ID Correctamente"),
+			@ApiResponse(code = 400, message = "No se ha Listado el Componente según su ID. Comprobar la Solicitud"),
+			@ApiResponse(code = 401, message = "No está autorizado para listar el Componente según su ID. Verificar credenciales"),
+			@ApiResponse(code = 403, message = "No se ha podido listar eel Componente según su ID. El servidor ha denegado esta operación"),
+			@ApiResponse(code = 404, message = "El Listado del Componente según su ID no está Disponible ya que el recurso pedido no existe. Comprobar solicitud"),
 			@ApiResponse(code = 405, message = "El recurso ha sido deshabilitado."),
 			@ApiResponse(code = 407, message = "La autenticación debe estar hecha a partir de un proxy."),
 			@ApiResponse(code = 408, message = "Se ha superado el tiempo de espera entre la solicitud y el servidor. Intentar nuevamente"),
@@ -228,7 +228,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-	@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+	@ApiOperation(value = "Listado Paginado de Componentes según su código", notes = "Devuelve el/los Componente/s paginados")
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 			@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -257,7 +257,7 @@ public class ComponenteController {
 	// ===============
 		// ===== GET =====
 		// ===============
-	@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+	@ApiOperation(value = "Listado Paginado de Componentes según su imagen", notes = "Devuelve el/los Componente/s paginados")
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 			@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -284,7 +284,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su hoja de datos", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -311,7 +311,7 @@ public class ComponenteController {
 //===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su nro de pieza", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -338,7 +338,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su categoría", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -365,7 +365,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su descripción", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -392,7 +392,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su fabricante", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -419,7 +419,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su stock", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
@@ -446,7 +446,7 @@ public class ComponenteController {
 	// ===============
 	// ===== GET =====
 	// ===============
-@ApiOperation(value = "Listado Paginado de Componentes con Filtro", notes = "Devuelve el/los Componente/s paginados")
+@ApiOperation(value = "Listado Paginado de Componentes según su precio", notes = "Devuelve el/los Componente/s paginados")
 @ApiResponses(value = {
 		@ApiResponse(code = 200, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),
 		@ApiResponse(code = 201, message = "Se han Listado el/los Componente/s con Filtro Correctamente"),

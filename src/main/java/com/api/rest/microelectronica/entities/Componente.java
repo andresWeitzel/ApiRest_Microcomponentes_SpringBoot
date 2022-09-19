@@ -29,8 +29,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class Componente {
 	
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_comp")
-	@SequenceGenerator(name = "seq_comp", sequenceName = "id_seq_comp", allocationSize = 1)
+	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "seq_comp_microelec")
+	@SequenceGenerator(name = "seq_comp_microelec", sequenceName = "id_seq_comp_microelec", allocationSize = 1)
 	@Id
 	@Column(name = "id")
 	private int id;
