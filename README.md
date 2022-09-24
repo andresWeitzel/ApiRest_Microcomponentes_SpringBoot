@@ -8,7 +8,7 @@
 
 </br>
 
-* Repositorio App_MicroFront_Microelectronica_React_Oracle : https://github.com/andresWeitzel/App_MicroFront_Microelectronica_React_Oracle
+* Repositorio App_MicroFront_Microelectronica_React_Oracle : https://github.com/andresWeitzel/App_MicroFrontEnd_MicroElectr_React
 * Repositorio db_microElectronica : https://github.com/andresWeitzel/db_microElectronica_OracleXE
 * PlayList Api Rest : https://www.youtube.com/playlist?list=PLCl11UFjHurDnmm7zqPOgpPu0fAuOHa9S
 
