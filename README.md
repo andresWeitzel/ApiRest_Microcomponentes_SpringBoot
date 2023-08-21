@@ -1,5 +1,5 @@
 
-<img src="./doc/controllers/index.png" style="width: 100%; height: 80%"/>
+<img src="./doc/api/componentes-lits.png" style="width: 100%; height: 80%"/>
 
 # ApiRest_Microcomponentes_SpringBoot
 Api Rest para el manejo de Microcomponentes implementado con Spring Boot, Spring MVC, Spring Data JPA, SpringFox, Swagger UI, Maven, Lombok, Postman, Log4j, Git, SQLDeveloper, Oracle XE 21c y Otras Tecnologías.
