@@ -1,5 +1,16 @@
 
-<img src="./doc/api/componentes-lits.png" style="width: 100%; height: 80%"/>
+![Index app](./src/main/resources/static/componentes-lits.png)
+   <div align="right">
+    <img width="28" height="30" src="./src/main/resources/static/icons/backend/java/png/java.png" />
+    <img width="22" height="24" src="./src/main/resources/static/icons/devops/png/maven.png" />
+    <img width="24" height="26" src="./src/main/resources/static/icons/database/png/oracle.png" /> 
+    <img width="26" height="26" src="./src/main/resources/static/icons/devops/png/git.png" />
+    <img width="27" height="27" src="./src/main/resources/static/icons/devops/png/postman.png" />
+    <img width="27" height="27" src="./src/main/resources/static/icons/devops/png/apache-tomcat.png" />
+    <img width="25" height="25" src="./src/main/resources/static/icons/devops/png/swagger.png" /> 
+    <img width="25" height="25" src="./src/main/resources/static/icons/backend/java/png/spring-boot.png" /> 
+  </div>  
+
 
 # ApiRest_Microcomponentes_SpringBoot
 Api Rest para el manejo de Microcomponentes implementado con Spring Boot, Spring MVC, Spring Data JPA, SpringFox, Swagger UI, Maven, Lombok, Postman, Log4j, Git, SQLDeveloper, Oracle XE 21c y Otras Tecnologías.
