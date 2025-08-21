@@ -1,5 +1,5 @@
 
-![Index app](./src/main/resources/static/componentes-lits.png)
+![Index app](./src/main/resources/static/componentes-list.png)
    <div align="right">
     <img width="28" height="30" src="./src/main/resources/static/icons/backend/java/png/java.png" />
     <img width="22" height="24" src="./src/main/resources/static/icons/devops/png/maven.png" />
